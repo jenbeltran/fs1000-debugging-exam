@@ -1,0 +1,76 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* About Section - All Screen Sizes*/
+.about-section .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10rem 0 11rem 0;
+}
+
+.about-section .about-text {
+  width: 45%;
+  padding: 2rem;
+  border-left: 5px solid rgb(196, 255, 192);
+}
+
+.about-section h1 {
+  color: rgb(192, 193, 255);
+}
+
+.about-section p {
+  font-size: 20px;
+}
+
+.about-section img {
+  border-radius: 15px;
+  filter: drop-shadow(14px 14px rgb(181, 56, 2));
+}
+
+/* About Section - Mobile Screen Sizes*/
+
+/* About Section - Desktop Screen Sizes*/
+@media screen and (min-width: 1280px) {
+  .about-section .wrapper {
+    width: 1280px;
+    margin: auto;
+  }
+}
+
+/* --------------------------------- */
+
+/* Footer Section - All Screen Sizes*/
+.footer {
+  background-color: rgb(166, 12, 37);
+}
+
+.footer .wrapper {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  flex-wrap: wrap;
+}
+
+.footer p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer a {
+  padding: 1.5rem;
+}
+
+/* Footer Section - Mobile Screen Sizes*/
+
+/* About Section - Desktop Screen Sizes*/
+@media screen and (min-width: 1280px) {
+  .footer .wrapper {
+    width: 1168px;
+    margin: auto;
+  }
+}
